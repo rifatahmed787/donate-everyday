@@ -9,7 +9,9 @@ h1 {
 
 }
 
-
+h2 {
+    font-size: 30px;
+}
 
 
 .first-section {
@@ -43,4 +45,117 @@ h1 {
     padding: 10px 15px;
     border-radius: 5px;
 
+}
+
+.second-section {
+    text-align: center;
+    margin: 50px 50px;
+
+
+}
+
+.content {
+    margin: 80px 0px;
+}
+
+.menu {
+    text-align: center;
+    width: 70%;
+
+}
+
+.menu ul {}
+
+.menu ul li {
+    float: left;
+    list-style: none;
+
+}
+
+.menu ul li a {
+
+    font-size: 30px;
+    padding: 30px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 50px;
+
+
+}
+
+.ammount {
+    padding: 30px 20px;
+    margin: 80px 0px;
+    border-bottom: 2px solid greenyellow;
+}
+
+.donate-plan {
+    text-align: center;
+    margin: 50px 200px;
+}
+
+.full-width {
+    display: flex;
+    margin: 5px;
+
+}
+
+.first-width {
+    width: 33%;
+    margin: 30px;
+    padding: 30px 15px;
+    background-image: url(images/food.png);
+    background-repeat: no-repeat;
+    background-color: aqua;
+}
+
+.second-width {
+    width: 33%;
+    margin: 30px;
+    padding: 30px 15px;
+    background-image: url(images/shelter.png);
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+}
+
+.third-width {
+    width: 33%;
+    margin: 30px;
+    padding: 30px 15px;
+    background-image: url(images/Frame-1.png);
+    background-repeat: no-repeat;
+    background-color: chocolate;
+}
+
+
+
+
+
+.contact-form {
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.message {
+    background-color: antiquewhite;
+    padding: 50px 50px;
+    height: 80px;
+    text-align: center;
+    margin: 80px 350px;
+
+}
+
+.last-text {
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 150px;
+}
+
+.kind {
+    color: firebrick;
+    padding-top: 20px;
+    font-weight: 400;
+    font-style: italic;
 }
