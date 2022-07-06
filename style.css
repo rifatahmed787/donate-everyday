@@ -45,6 +45,7 @@ h2 {
     padding: 10px 15px;
     border-radius: 5px;
 
+
 }
 
 .second-section {
@@ -64,7 +65,9 @@ h2 {
 
 }
 
-.menu ul {}
+.menu ul {
+    margin: 30px 30px;
+}
 
 .menu ul li {
     float: left;
@@ -83,10 +86,18 @@ h2 {
 
 }
 
+
+.li-border {
+    border: 2px solid salmon;
+    color: salmon;
+}
+
 .ammount {
     padding: 30px 20px;
     margin: 80px 0px;
-    border-bottom: 2px solid greenyellow;
+    border-bottom: 2px solid gray;
+    padding-bottom: 0px;
+    padding-top: 100px;
 }
 
 .donate-plan {
@@ -127,6 +138,24 @@ h2 {
     background-color: chocolate;
 }
 
+#balanced-diet {
+    display: flex;
+    margin: 100px;
+}
+
+.good-food {
+    width: 50%;
+    padding-left: 5%;
+
+}
+
+.good-food img {
+    width: 80%;
+
+
+}
+
+
 
 
 
@@ -142,6 +171,13 @@ h2 {
     height: 80px;
     text-align: center;
     margin: 80px 350px;
+
+}
+
+.icon {
+    font-size: 25px;
+    background-color: gray;
+    padding-bottom: 7px;
 
 }
 
