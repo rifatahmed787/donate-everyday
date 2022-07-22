@@ -42,10 +42,10 @@ h2 {
     font-weight: 400;
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 15px;
+    padding: 9px 15px;
     border-radius: 5px;
-
-
+    margin-left: -10px;
+    border: 1px solid black;
 }
 
 .second-section {
@@ -171,15 +171,18 @@ h2 {
     height: 80px;
     text-align: center;
     margin: 80px 350px;
+    border: 1px solid black;
 
 }
 
 .icon {
     font-size: 25px;
-    background-color: gray;
+    background-color: white;
     padding-bottom: 7px;
-    margin-right: -10px;
+    /* margin-right: 0px; */
     border-radius: 5px;
+    border: 1px solid black;
+    border-right: none;
 
 }
 
